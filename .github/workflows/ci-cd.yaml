@@ -31,5 +31,5 @@ jobs:
     if: github.ref == 'refs/heads/main'
     uses: tyreesamurai/ci-cd/.github/workflows/deploy.yml@main
     with:
-      service_path: /srv/services/recipes
+      service_path: /srv/services/finances
     secrets: inherit
