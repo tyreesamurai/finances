@@ -1,0 +1,1 @@
+const randomValue = 0;
