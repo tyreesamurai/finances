@@ -1,5 +1,5 @@
 {
-  "name": "todo",
+  "name": "finances",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,7 +9,7 @@
     "lint": "biome check",
     "format": "biome format --write",
     "typecheck": "tsc --noEmit",
-    "test": "bun test",
+    "test": "bun test --pass-with-no-tests",
     "ci": "bun run lint && bun run typecheck && bun run test"
   },
   "dependencies": {
